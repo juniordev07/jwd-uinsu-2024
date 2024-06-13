@@ -1,0 +1,265 @@
+.form  {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group .error {
+    color: red;
+    margin-top: 5px;
+}
+
+.form button {
+    display: block;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form button:hover {
+    background-color: #555;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 0.5;
+    background-color: #f4f4f4;
+    padding-top: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1px 0;
+    background-color: #333;
+    color: #fff;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+main h2 {
+    text-align: center;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+
+/* Card Styles */
+.kopi {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.paket {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.kartu {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.kartu img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+.kartu h3 {
+    margin-top: 10px;
+}
+
+.kartu p {
+    font-size: 14px;
+    color: #333;
+}
+
+.kartu .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.kartu .btn:hover {
+    background-color: #555;
+}
+
+
+/* About Page Styles */
+.about-section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.about-section h3 {
+    margin-top: 0;
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.about-section ul {
+    list-style-type: disc;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.about-section ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+
+/* Contact Page Styles */
+.contact-section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.contact-section .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.contact-section textarea {
+    resize: vertical;
+}
+
+.contact-section .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact-section .btn:hover {
+    background-color: #555;
+}
+
+
